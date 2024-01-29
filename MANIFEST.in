@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chemirx *.css
+recursive-include chemirx *.csv
+recursive-include chemirx *.html
+recursive-include chemirx *.ico
+recursive-include chemirx *.js
+recursive-include chemirx *.json
+recursive-include chemirx *.md
+recursive-include chemirx *.png
+recursive-include chemirx *.py
+recursive-include chemirx *.svg
+recursive-include chemirx *.txt
+recursive-exclude chemirx *.pyc
